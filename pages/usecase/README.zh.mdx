@@ -1,0 +1,134 @@
+<div align="center">
+# 石棺：广泛的用例研究
+
+v 01.23 [首次发布 - Medium文章](https://medium.com/sarcophagus-community/sarcophagus-exhaustive-usecase-study-5cd346081ee5)
+
+![徽标](/logo2.png)
+
+### ****************前言****************
+
+***************本研究旨在提供详尽的产品市场适应性概述，不构成与所提及组织的任何形式的合作伙伴关系。提到这些是为了提供Sarcophagus可以根据其给定的目的和用例作为死人开关使用或集成的已知示例。***************
+
+# **介绍**
+
+石棺死人开关（DMS）为用户在用户变得无能、死亡或无法访问其数据的情况下提供了一种分散的数据恢复或传递问题的解决方案。其目的是将数据存储在一个加密容器（石棺）中，只有在创作者以某种方式无法互动时才能被预期的接收者访问。一旦DMS被触发，数据可以使用接收者的私钥进行解密。集成将使这个过程可以作为各种dApps和应用程序的后端工具来使用。这将不可变地确保敏感数据和数字资产的安全恢复和转移，包括密码、个人文件、财务记录、私钥，甚至一些传统的应用程序和服务。
+
+# 一般用例概述
+
+### 数字生前遗嘱
+
+石棺被设计为一个通用工具，可以服务于许多用例，但最常引用的用例是数字世界中的继承/数据传递。为此，石棺使用户能够创建一个加密的数字生前遗嘱（直到发布时保持秘密），并存储在链上。
+
+数字生前遗嘱可以是一份文件，概述了一个人在他们变得无能或无法表达他们的意愿的情况下对医疗治疗的偏好。在这种情况下，指定的接收者可以访问文件并确保患者的愿望得到尊重。它还可以用于存储重要信息，如密码、电子邮件帐户、私钥和其他敏感数据，以及在所有者无法再管理它们的情况下传递的指令。这确保了接收者或继承人能够访问所有必要的信息来进行会计或管理电子邮件和社交帐户。对于重要数据，不可变的保证至关重要，石棺提供了一个安全和无信任的DMS解决方案，以保存这些数字遗产供后代使用。
+</div>
+
+**统计数据：**
+
+- 谷歌为帐户创建了一个名为[不活跃帐户管理员](https://en.wikipedia.org/wiki/Dead_man%27s_switch#:~:text=Google%27s%20Inactive%20Account%20Manager%5B17%5D%20allows%20the%20account%20holder%20to%20nominate%20someone%20else%20to%20access%20their%20services%20if%20not%20used%20for%20an%20extended%20period%20(the%20default%20is%20three%20months).)的DMS。如果帐户在长时间内没有使用（默认为三个月），它允许帐户持有人提名其他人访问他们的服务。
+- Facebook有一个名为“[传承联系人](https://www.facebook.com/help/1568013990080948)”的功能，允许用户在死后指定某人管理他们的帐户。
+- 微软为电子邮件帐户提供了一个名为“[亲属](https://answers.microsoft.com/en-us/outlook_com/forum/all/microsofts-next-of-kin-process-accessing-emails/c848d768-58e8-428f-b10a-4fcd1f95c8d8)”的功能。
+- Instagram有一个名为“[纪念化](https://help.instagram.com/231764660354188)”的功能。
+- 列表还在增加！
+
+### 紧急通信
+
+想象一种情景，一个徒步旅行者迷失在荒野中，无法与外界通信。他们可以创建一个石棺DMS来存储紧急联系信息，可以被指定的联系人访问，如亲近的家人，然后被转达给公园管理员或搜救队。如果该徒步旅行者变得无能或无法交流，接收者可以访问信息并迅速联系他们的亲人，为所有相关方提供安心。
+
+这项技术还可以在其他紧急情况下使用，例如飓风或地震等自然灾害，通信线路可能中断或不可靠。通过将紧急联系信息存储在石棺中，用户可以放心，即使他们无法自行通信，也会通知他们的亲人在紧急情况下，他们的亲人将会被通知。
+
+借助这项技术，用户可以为意外情况做好准备，并放心知道他们的亲人在危机时将得到照顾。
+
+- [卡特里娜飓风（2005年）](https://en.wikipedia.org/wiki/Hurricane_Katrina)：它袭击了美国墨西哥湾沿岸后，许多地区都没有电力或通信基础设施。紧急救援人员努力协调他们的工作，许多人无法寻求帮助或获取有关情况的信息。
+- 在海上发生紧急情况时，船只通常使用[搜索与救援测波器（SARTs）](https://en.wikipedia.org/wiki/Search_and_rescue_transponder)来传输紧急信号，这个信号可以被附近的船只或搜救队接收。然而，有些情况下SART可能无法正常运行或无法有效地传输信号。通过定期将位置数据传输到区块链上，石棺DMS可以充当备份通信系统，不能被单点故障干扰。
+
+### 政治活动和新闻工作
+
+政治活动家和记者经常置身于危险的环境中。他们的生命以及他们的消息来源的生命都处于危险之中。为了提高安全性，他们需要存储敏感信息，如消息来源、联系人和研究。这就是石棺派上用场的地方。它提供了一个安全的环境来存储关键数据，可以被指定的接收者访问。如果记者或活动家发生了什么事情，他们的工作可以继续进行而没有任何中断。这确保了真相会被揭示，正义会得以维护。此外，它可以定期创建数据备份，使活动家和记者可以安心知道他们有可靠的数据备份以供以后恢复使用。在跨越边界的情况下，这也很方便，以确保数据不会在这些情况下被没收。
+
+- 据[新闻徽章](https://www.pressemblem.ch/casualties.shtml)称，自2013年以来已经发生了1130多起记者和媒体工作者伤亡事件。
+- [保护记者委员会](https://cpj.org/reports/2020/12/record-number-journalists-jailed-imprisoned/#:~:text=In%20its%20annual%20global%20survey,high%20of%20272%20in%202016.)发现，截至2020年12月1日，在与他们的工作有关的情况下，至少有274名记者被监禁，超过了2016年272名的最高记录。
+- [Top10VPN](https://www.top10vpn.com/research/cost-of-internet-shutdowns/)拥有一个追踪器，用于追踪政府以社会控制的方式封锁互联网和限制互联网访问的情况。目前，他们已经追踪到超过420亿美元的经济损失，以政府审查的名义。
+
+### 密码和凭证恢复
+
+Sarcophagus DMS的另一个潜在用例是恢复丢失或遗忘的凭证。用户可以将他们的恢复信息，如电子邮件密码或安全问题，存储在只能由用户访问的石棺中。这将确保用户有一种安全的方式来恢复他们的帐户，而不依赖于可能容易受到黑客或社会工程攻击的传统恢复方法。
+
+**示例恢复集成方案：**
+
+[Gnosis Safe](https://safe.global/)：Safe上的签署者可以使用DMS来保护访问权限，以防其中一名签署者失去签署能力。这可以是一个集成备份，将签署权传递给另一个地址，或者只是将当前地址的PK以文件形式发送给接收者。
+
+[Twitter](https://twitter.com/)或其他社交媒体用户可以将DMS用作丢失帐户访问恢复的恢复选项功能。这将提供一个无需信任的执行结构，而不是使用中央服务器进行恢复选项。
+
+**统计数据：**
+
+- [Chainalysis的研究](https://blog.chainalysis.com/reports/bitcoin-market-data-exchanges-trading/)在2017年和2020年发现，大约20%的现有比特币流通量已经丢失，其中相当大一部分归因于丢失的私钥。
+- 密码重置/恢复电子邮件通常发送到用户的备用电子邮件地址，在某些情况下，如果服务器宕机、恢复电子邮件未使用或恢复电子邮件也被入侵，这可能不可靠。
+
+### 时间胶囊
+
+时间胶囊是保留记忆和文物供后代使用的一种方式。由于Arweave区块链的永久性，Sarcophagus DMS可以用作时间胶囊，用于存储重要文件、照片和视频，以供后代“打开”。这确保了后代可以访问这些信息，并了解他们的家庭历史，或者DAO城镇可以留下数字历史收藏。此外，由于它的加密功能，内容将保密直到合适的时间。长期存储的可能性是无限的！
+
+**统计数据：**
+
+- 一些最著名的时间胶囊包括[文明的隐匿之地](https://en.wikipedia.org/wiki/Crypt_of_Civilization)，它在1940年封存，打算保持封存直到8113年，以及西属时光囊，它们埋在1939年和1964年的世界博览会上，分别计划在6939年和8113年打开。
+- 尽管时间胶囊通常打算在未来的特定日期打开，但也有一些遗失或被遗忘的情况。在某些情况下，时间胶囊是在施工或挖掘工作期间意外发现的。
+- 没有一种确保物理时间胶囊在特定时间段内保持完好无损的方法，因为诸如侵蚀、湿度和温度变化等因素都会影响内容的保存。
+
+### 节点/操作员声誉
+
+在Sarcophagus网络中，节点声誉是一个重要的方面，它帮助用户选择要监视其石棺的节点。节点声誉系统旨在显示节点的性能，根据成功和失败的解封以及对恶意行为的指控来评估。这些指标帮助用户确定网络中最可靠的节点。
+
+通过展示他们有效保护石棺的记录，节点操作员可以向有兴趣使用Sarcophagus网络或操作员的服务的潜在用户或合作伙伴展示他们的可靠性和能力。
+
+节点操作员可以潜在地利用这些信息的另一种方式是在他们的社交媒体渠道上分享它，或者将其包含在他们自己的营销材料中。他们可以将可靠性作为潜在用户或合作伙伴的关键卖点。他们还可以利用这些信息建立与现有网络连接的信任，这可能会导致再次合作和有机推荐。
+
+节点声誉统计数据对于Sarcophagus网络的用例和价值主张对用户和节点操作员都是一个重要方面。
+
+# 可能的集成 - 广泛的列表
+
+以下是潜在集成示例的*广泛*列表。这个列表更好地展示了基于潜在集成用例的深度和广度。
+
+*注意：在没有这些集成的情况下，大多数这些用途也可以由用户使用Tomb dApp前端手动执行。*
+
+- **密码管理器:** [1Password](https://1password.com/), [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), [Keeper](https://www.keepersecurity.com/), [Bitwarden](https://bitwarden.com/), [RoboForm](https://www.roboform.com/), [Password Boss](https://www.passwordboss.com/), [Sticky Password](https://www.stickypassword.com/), [Enpass](https://www.enpass.io/), [True Key](https://www.truekey.com/), [Keepass](https://keepass.info/), [LogMeOnce](https://www.logmeonce.com/), [PassPack](https://www.passpack.com/), [Password Safe](https://pwsafe.org/), [Passwordstate](https://www.clickstudios.com.au/passwordstate.html), [Password Depot](https://www.password-depot.com/), [NordPass](https://nordpass.com/), [Password Manager Pro](https://www.manageengine.com/products/passwordmanagerpro/), [Cyclonis](https://www.cyclonis.com/), [Avast Passwords](https://www.avast.com/passwords), [McAfee True Key](https://www.truekey.com/), [Password Manager XP](https://www.cp-lab.com/), [SplashID](https://www.splashid.com/), [Trend Micro Password Manager](https://www.trendmicro.com), [Password Dragon](https://www.passworddragon.com/), [Kaspersky Password Manager](https://www.kaspersky.com/password-manager), [Password Agent](https://www.moonsoftware.com/pwagent), [Password Safe Pro](https://www.safeproject.net/), [mSecure](https://msecure.com/), [SafeInCloud](https://safe-in-cloud.com/en/), [F-Secure KEY](https://www.f-secure.com/en/home/products/key), [Secret Server](https://www.thycotic.com/products/secret-server/), [Psono](https://psono.com/), [KeeperChat](https://www.keepersecurity.com/keeperchat.html)
+    
+    
+- **社交媒体:** [Twitter](https://twitter.com/), [LinkedIn](https://www.linkedin.com/), [Instagram](https://www.instagram.com/), [TikTok](https://www.tiktok.com/), [Facebook](https://www.facebook.com/), [Snapchat](https://www.snapchat.com/), [Pinterest](https://www.pinterest.com/), [Reddit](https://www.reddit.com/), [Discord](https://discord.com/), [Telegram](https://telegram.org/), [Slack](https://slack.com/), [Zoom](https://zoom.us/), [Trello](https://trello.com/), [Asana](https://asana.com/), [Evernote](https://evernote.com/), [Notion](https://www.notion.so/), [Hootsuite](https://hootsuite.com/), [Sprout Social](https://sproutsocial.com/), [Later](https://later.com/), [Buffer](https://buffer.com/), [Tailwind](https://www.tailwindapp.com/), [Skype](https://www.skype.com/), [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software), [Webex](https://www.webex.com/), [BlueJeans](https://www.bluejeans.com/), [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/), [Twitch](https://www.twitch.tv/), [Clubhouse](https://www.joinclubhouse.com/), [OnlyFans](https://onlyfans.com/), [Patreon](https://www.patreon.com/), [Ko-fi](https://ko-fi.com/), [Substack](https://substack.com/), [Medium](https://medium.com/), [WordPress](https://wordpress.com/), [Blogger](https://www.blogger.com/), [Tumblr](https://www.tumblr.com/), [Minds](https://www.minds.com/), [Mastodon](https://joinmastodon.org/), [Gab](https://gab.com/), [Parler](https://parler.com/), [MeWe](https://mewe.com/), [Farcaster](https://farcaster.network/), [Subsocial](https://subsocial.network/), [Bluesky](https://blueskyweb.xyz/)
+    
+    
+- **云存储 :** [Google Drive](https://www.google.com/drive/), [Apple iCloud](https://www.icloud.com/), [Microsoft OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage), [Dropbox](https://www.dropbox.com/), [Box](https://www.box.com/), [Mega](https://mega.nz/), [Amazon S3](https://aws.amazon.com/s3/), [Google Cloud Storage](https://cloud.google.com/storage), [Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html), [Wasabi](https://wasabi.com/), [pCloud](https://www.pcloud.com/), [Sync.com](https://www.sync.com/), [Nextcloud](https://nextcloud.com/), [iCloud Drive](https://www.icloud.com/), [Google Photos](https://www.google.com/photos), [Flickr](https://www.flickr.com/), [SugarSync](https://www.sugarsync.com/), [SpiderOak](https://spideroak.com/), [Tresorit](https://tresorit.com/), [Egnyte](https://www.egnyte.com/), [Zoho Docs](https://www.zoho.com/docs/), [pCloud Crypto](https://www.pcloud.com/crypto), [Koofr](https://koofr.eu/), [OwnCloud](https://owncloud.com/), [Seafile](https://www.seafile.com/), [Synology Drive](https://www.synology.com/en-us/dsm/feature/drive), [Yandex Disk](https://disk.yandex.com/), [IBM Cloud](https://www.ibm.com/cloud), [Oracle Cloud](https://www.oracle.com/cloud/), [IDrive](https://www.idrive.com/), [Syncplicity](https://www.syncplicity.com/), [Tresorit Send](https://send.tresorit.com/), [Jottacloud](https://www.jottacloud.com/), [Acronis True Image](https://www.acronis.com/en-us/products/true-image/), [OpenDrive](https://www.opendrive.com/), [Morro Data CloudNAS](https://www.morrodata.com/cloudnas/), [Hubic](https://hubic.com/en/), [Canto Cumulus](https://www.canto.com/cumulus/),
+    
+    
+- **金融:** [PayPal](https://www.paypal.com/), [Venmo](https://venmo.com/), [Cash App](https://cash.app/), [Robinhood](https://robinhood.com/), [Coinbase Pro](https://pro.coinbase.com/), [Binance](https://www.binance.com/en), [Kraken](https://www.kraken.com/), [Bitfinex](https://www.bitfinex.com/), [Metamask](https://metamask.io/), [MyEtherWallet](https://www.myetherwallet.com/), [Ledger Live](https://www.ledger.com/), [Trezor Suite](https://trezor.io/), [Exodus Wallet](https://www.exodus.com/), [Aave](https://aave.com/), [Compound](https://compound.finance/), [Uniswap](https://app.uniswap.org/), [SushiSwap](https://app.sushi.com/), [Yearn Finance](https://yearn.finance/), [Balancer](https://balancer.finance/), [Curve Finance](https://www.curve.fi/), [MakerDAO](https://makerdao.com/), [Synthetix](https://www.synthetix.io/), [Bancor](https://www.bancor.network/), [1inch,](https://1inch.io/) [Exchange](https://1inch.exchange/#/), [Kyber Network](https://kyber.network/), [Badger DAO](https://badger.finance/), [Harvest Finance](https://harvest.finance/), [Alpha Finance](https://alphafinance.io/), [Cream Finance](https://cream.finance/), [Pickle Finance](https://pickle.finance/), [Near Wallet](https://wallet.near.org/), [Raydium](https://raydium.io/), [Saber](https://saber.so/),  [Orion Protocol](https://www.orionprotocol.io/), [DeFi Saver](https://defisaver.com/), [Instadapp](https://instadapp.io/), [Zapper.fi](http://zapper.fi/), [Zerion](https://zerion.io/), [DeversiFi](https://www.deversifi.com/), [DODO Exchange](https://app.dodoex.io/), [PowerTrade](https://power.trade/), [Biconomy](https://biconomy.io/), [Avalanche Wallet](https://wallet.avax.network/), [Polkadot JS Extension](https://polkadot.js.org/extension/), [Furucombo](https://furucombo.app/), [EasyFi](https://easyfi.network/), [Frontier Wallet](https://frontierwallet.com/), [DeFiChain](https://defichain.com/), [PancakeSwap](https://pancakeswap.finance/), [Acala Network](https://acala.network/), [Darwinia Network](https://darwinia.network/), [Unbound Finance](https://www.unbound.finance/), [HOPR](https://hoprnet.org/), [Nsure Network](https://nsure.network/), [Zokyo](https://zokyo.io/), [Trust Wallet](https://trustwallet.com/), [Portis](https://www.portis.io/)
+    
+     
+    
+- **浏览器数据:** [Brave Search](https://search.brave.com/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/safari/), [Edge](https://www.microsoft.com/en-us/edge), [Tor Browser](https://www.torproject.org/), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Chromium](https://www.chromium.org/Home), [Pale Moon](https://www.palemoon.org/), [Waterfox](https://www.waterfox.net/), [Netscape Navigator](https://web.archive.org/web/20080401090449/http://browser.netscape.com/ns8/), [Maxthon](https://www.maxthon.com/), [SeaMonkey](https://www.seamonkey-project.org/), [Avant Browser](http://www.avantbrowser.com/), [Konqueror](https://konqueror.org/), [Lynx](https://invisible-island.net/lynx/), [Links](http://links.twibright.com/), [ELinks](http://elinks.cz/), [w3m](http://w3m.sourceforge.net/), [Surf](https://surf.suckless.org/), [Dillo](https://www.dillo.org/), [NetSurf](https://www.netsurf-browser.org/), [Epiphany](https://wiki.gnome.org/Apps/Web/), [Galeon](https://sourceforge.net/projects/galeon/), [IceCat](https://www.gnu.org/software/gnuzilla/), [K-Meleon](http://kmeleonbrowser.org/), [Slimjet](https://www.slimjet.com/), [SRWare Iron](https://www.srware.net/en/software_srware_iron.php), [Uzbl](https://www.uzbl.org/), [Yandex Browser](https://browser.yandex.com/), [Basilisk](https://www.basilisk-browser.org/), [Cent Browser](https://www.centbrowser.com/), [Falkon](https://www.falkon.org/), [Otter Browser](https://otter-browser.org/), [Puffin](https://www.puffin.com/), [Yandex Browser Lite](https://play.google.com/store/apps/details?id=com.yandex.browser.lite)
+    
+    
+- **电子邮件服务:** [ProtonMail](https://protonmail.com/), [Tutanota](https://tutanota.com/), [Gmail](https://www.google.com/gmail/), [Outlook.com](https://outlook.live.com/), [Yahoo! Mail](https://www.yahoo.com/mail/), [Zoho Mail](https://www.zoho.com/mail/), [Mail.com](https://www.mail.com/), [GMX](https://www.gmx.com/), [AOL Mail](https://www.aol.com/mail/), [FastMail](https://fastmail.com/), [Posteo](https://posteo.de/en), [Runbox](https://runbox.com/), [Hushmail](https://www.hushmail.com/), [Mailfence](https://mailfence.com/), [StartMail](https://www.startmail.com/), [Criptext](https://criptext.com/), [CounterMail](https://countermail.com/), [CTemplar](https://ctemplar.com/), [LuxSci](https://luxsci.com/), [Mailbox.org](https://mailbox.org/), [Kolab Now](https://kolabnow.com/), [Soverin](https://soverin.net/), [Thunderbird](https://www.mozilla.org/en-US/thunderbird/), [Pegasus Mail](http://www.pmail.com/), [Inky](https://inky.com/), [HEY](https://hey.com/), [AstraMail](https://astra.finance/), [3box Mail](https://3box.io/), [Wevemail](https://wevemail.io/)
+    
+    
+- **项目管理:** [GitHub](https://github.com/), [GitLab](https://gitlab.com/), [Bitbucket](https://bitbucket.org/), [Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence), [Asana](https://asana.com/), [Trello](https://trello.com/), [Slack](https://slack.com/), [Discord](https://discord.com/), [Zoom](https://zoom.us/), [Airtable](https://airtable.com/), [Monday.com](http://monday.com/), [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html), [Canva](https://www.canva.com/), [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), [InVision](https://www.invisionapp.com/), [Notion](https://www.notion.so/), [Coda](https://coda.io/), [Quip](https://quip.com/), [Miro](https://miro.com/), [Basecamp](https://basecamp.com/), [ClickUp](https://clickup.com/), [Wrike](https://www.wrike.com/), [Webflow](https://webflow.com/), [Bubble](https://bubble.io/)
+      
+    
+- **广告平台:** [Google Analytics](https://analytics.google.com/), [Facebook](https://www.facebook.com/business/ads), [Twitter Ads](https://ads.twitter.com/), [Google Ads](https://ads.google.com/), [Microsoft Advertising](https://ads.microsoft.com/), [LinkedIn Ads](https://www.linkedin.com/ad/accounts), [Amazon Advertising](https://advertising.amazon.com/), [Shopify](https://www.shopify.com/), [Magento](https://magento.com/), [WooCommerce](https://woocommerce.com/), [BigCommerce](https://www.bigcommerce.com/), [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/), [Zoho](https://www.zoho.com/), [Freshworks](https://www.freshworks.com/), [Zendesk](https://www.zendesk.com/), [Intercom](https://www.intercom.com/), [Drift](https://www.drift.com/), [HubSpot](https://www.hubspot.com/), [ZoomInfo](https://www.zoominfo.com/), [Crunchbase](https://www.crunchbase.com/), [LinkedIn Sales Navigator](https://business.linkedin.com/sales-solutions/sales-navigator), [SalesLoft](https://salesloft.com/), [Outreach](https://www.outreach.io/), [Brave Search](https://search.brave.com/), [Presearch](https://www.presearch.org/), [AdEx](https://www.adex.network/), [Adshares](https://adshares.net/), [BAT](https://basicattentiontoken.org/), [AdChain](https://adchain.com/), [AdHive](https://adhive.tv/), [Adshares](https://adshares.net/), [Attention Network](https://attention.network/), [MadNetwork](https://madnetwork.com/), [Native](https://native.io/), [PO8](https://po8.io/), [Unstoppable Domains](http://unstoppabledomains.com/)
+    
+    
+- **电子邮件营销:** [Mailchimp](https://mailchimp.com/), [Sendinblue](https://www.sendinblue.com/), [Constant Contact](https://www.constantcontact.com/), [GetResponse](https://www.getresponse.com/), [Campaign Monitor](https://www.campaignmonitor.com/), [AWeber](https://www.aweber.com/), [ConvertKit](https://convertkit.com/), [ActiveCampaign](https://www.activecampaign.com/), [Keap](https://keap.com/), [Drip](https://www.drip.com/), [Emma](https://myemma.com/), [HubSpot Marketing Hub](https://www.hubspot.com/products/marketing), [Klaviyo](https://www.klaviyo.com/), [Marketo](https://www.marketo.com/), [Omnisend](https://www.omnisend.com/), [Pardot](https://www.pardot.com/),  [Zoho Campaigns](https://www.zoho.com/campaigns/)
+    
+    
+- **房地产:** [Google My Business](https://www.google.com/business/), [Yelp](https://www.yelp.com/), [TripAdvisor](https://www.tripadvisor.com/), [Zillow](https://www.zillow.com/), [Redfin](https://www.redfin.com/), [Realtor.com](https://www.realtor.com/), [Trulia](https://www.trulia.com/), [Homes.com](https://www.homes.com/), [HomeFinder.com](https://homefinder.com/), [Apartment Finder](https://www.apartmentfinder.com/), [Apartments.com](https://www.apartments.com/), [Rent.com](https://www.rent.com/), [CoStar](https://www.costar.com/), [PropertyShark](https://www.propertyshark.com/), [LoopNet](https://www.loopnet.com/), [Reonomy](https://www.reonomy.com/), [Estately](https://www.estately.com/), [HomeSnap](https://www.homesnap.com/), [Knock](https://www.knock.com/), [Opendoor](https://www.opendoor.com/), [Homie](https://www.homie.com/), [Offerpad](https://www.offerpad.com/), [Propy](https://propy.com/), [RealCrowd](https://www.realcrowd.com/), [Roofstock](https://www.roofstock.com/), [Fundrise](https://fundrise.com/), [PeerStreet](https://www.peerstreet.com/).
+
+- **卫生保健:** [Zocdoc](https://www.zocdoc.com/), [WebMD](https://www.webmd.com/), [Doctor On Demand](https://www.doctorondemand.com/), [GoodRx](https://www.goodrx.com/), [Cerner](https://www.cerner.com/), [Epic](https://www.epic.com/), [Allscripts](https://www.allscripts.com/), [Athenahealth](https://www.athenahealth.com/), [NextGen Healthcare](https://www.nextgen.com/), [MedlinePlus](https://medlineplus.gov/), [Healthline](https://www.healthline.com/), [Mayo Clinic](https://www.mayoclinic.org/), [Cleveland Clinic](https://my.clevelandclinic.org/), [Kaiser Permanente](https://healthy.kaiserpermanente.org/), [CVS Health](https://www.cvshealth.com/), [Walgreens](https://www.walgreens.com/), [Rite Aid](https://www.riteaid.com/), [Optum](https://www.optum.com/), [Teladoc](https://www.teladoc.com/), [Babylon Health](https://www.babylonhealth.com/), [Ada Health](https://ada.com/), [MyFitnessPal](https://www.myfitnesspal.com/), [Fitbit](https://www.fitbit.com/), [Apple Health](https://www.apple.com/ios/health/), [Google Fit](https://www.google.com/fit/),
+    
+
+这只是一些关于Sarcophagus DMS如何与各种应用程序集成以提供安全的数据恢复和传递解决方案的示例。通过以这种方式利用它的功能，用户可以在发生意外事件时从更安全可靠的方式中受益，以存储和恢复其数据。
+
+# 结论
+
+Sarcophagus DMS为用户提供了通过一个抗审查的智能合同来管理其数据恢复和传递的能力。这个实用工具有许多用例，还有待探索的更多，并解决了我们当前数字领域的关键问题。通过提供一个不可变的、无需信任的、可靠的解决方案，它保护了数字遗产，以便传给后代，并确保关键数据在需要时保持安全、不变和可用。
+
+*人类编写，辅助人工智能*
+
+一些链接可能会随着时间的推移而更改，变成无效的链接。这些信息已经进行了彻底的编辑以确保准确性，但一些链接和引用可能仍然存在错误。

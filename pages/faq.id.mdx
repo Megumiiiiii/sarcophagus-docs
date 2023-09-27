@@ -1,0 +1,147 @@
+# FAQ
+
+**Apa itu Sarcophagus?**
+
+Ini adalah aplikasi *decentralized dead man's switch* yang dibangun di Ethereum dan Arweave, Anda dapat mempelajari lebih lanjut tentang proyek ini dengan mengunjungi [sarcophagus.io](http://sarcophagus.io/), atau membaca litepaper.
+
+**Apa itu SARCO?**
+
+SARCO adalah token ERC20 dengan pasokan tetap 100.000.000. Informasi lebih lanjut tentang token SARCO dapat ditemukan di [sarcophagus.io/sarco_token.html](http://sarcophagus.io/sarco_token.html) token digunakan secara eksklusif oleh pihak yang berinteraksi dengan DApp.
+
+**Apa itu Dead Man Switch?**
+
+Mekanisme yang dipicu saat pengguna gagal melakukan tindakan.
+
+**Apa kegunaan dari Sarcophagus?**
+
+Kegunaan yang umum adalah sesuatu yang dipercayakan ke orang lain, Pemulihan Kata Sandi, Pengalihan Kredensial, Aktifitas Politik, Pencadangan Material Kunci, dan Komunikasi Darurat.
+
+**Apa itu Litepaper?**
+
+Tempat untuk melihat bagaimana *Sarcophagus* bekerja lebih detail.
+
+**Apa itu Sarcophagus?**
+
+Sebuah file atau “corpse” yang dibungkus dengan dua lapis enkripsi; *Embalmer* mengenkripsi lapisan dalam dan Arkeolog mengenkripsi lapisan luar.
+
+**Apa itu Arweave?**
+
+[Jaringan](https://www.arweave.org/) yang menyimpan informasi secara permanen. Di sinilah file akan tetap selamanya setelah *resurrection*.
+
+**Apa itu  Embalmer?**
+
+Seorang pengguna atau kelompok yang membuat *Sarcophagus* (dead man’s switch).
+
+**Apa itu  Corpse?**
+
+Muatan data di dalam Sarcophagus.
+
+**Apa itu  Mummification?**
+
+Proses *[wrapping](https://www.babla.co.id/bahasa-inggris-bahasa-indonesia/wrapping)/*mengemas (encrypting) sebuah corpse oleh Embalmer.
+
+**Apa itu Re-wrapping?**
+
+Proses dimana Embalmer membuktikan keaktifan mereka.
+
+**Apa itu Resurrection?**
+
+Ketika lapisan luar *Sarcophagus* didekripsi oleh *Archaeologist*.
+
+**Apa itu Resurrection grace period?**
+
+Jendela waktu di mana Archeologist harus me-*dencrypt* lapisan luar *Sarcophagus* dan menghindari *slashing event*. Jendelanya adalah 240 blok (~1 jam)
+
+**Apa itu Curse?**
+
+Kesepakatan antara ****Embalmer dan Archaeologist.
+
+**Apa/siapa itu recipient?**
+
+Adrress ETH yang akan memiliki akses ke file setelah *resurrected*.
+
+**Apa itu seorang *Archaeologist*?**
+
+*Node Operator* yang membantu menggali *sarcophagus*.
+
+**Bagaiamana cara kita memilih *Archaeologist* untuk di *Curse*?**
+
+*Archaeologists* memiliki parameter yang tersedia untuk umum yang mereka kontrol. Riwayat statistik *Archeologist* sangat penting dan akan tersedia bagi *embalmers.*
+
+**Apa yang diperlukan untuk *Curse* *Archaeologist*?**
+
+Biaya penggalian minimum, hadiah minimum, dan waktu *resurrection* yang maksimal.
+
+**Apa itu Digging Fees?**
+
+Biaya yang dibayarkan di muka oleh Embalmer kepada *Archaeologists* saat mumifikasi dan setiap re-wrap.
+
+**Apa itu Bounty?**
+
+Bounty adalah harta yang dibayarkan kepada *Archaeologists* untuk *resurrection* yang berhasil (setelah waktu *resurrection* tetapi sebelum akhir masa tenggang).
+
+**Apa itu Reserve Requirement?**
+
+Jumlah volume berbahaya sebagai bagian dari total jaringan selama 175.000 Blok terakhir (~1 bulan). Setiap basis poin meningkatkan persyaratan cadangan sebesar 10%. Persyaratan cadangan tidak boleh lebih rendah dari 10% dan tidak lebih tinggi dari 100%
+
+**Apa itu Bond?**
+
+Jumlah token SARCO yang dipasang sama dengan jumlah *Digging Fees* dan *bounty*, dikalikan dengan persyaratan cadangan.
+
+Jumlah Sarco Token = (*Digging Fees* + *Bounty*) * persyaratan cadangan
+
+**Dapatkah saya menghapus sebuah Sarcophagus?**
+
+Tidak, tapi Sarcophagus dapat dikunci selamanya dengan membungkusnya kembali tanpa biaya bounty atau penggalian dan memperpanjang tanggal kebangkitan lebih jauh dari waktu kebangkitan maksimum Arkeolog.
+
+**Bagaimana cara kita memilih Sarcophagus?**
+
+Ada 3 fase Sarcophagus
+
+- Fase Mummification - *Embalmer* akan mengunggah dan mengenkripsi mayat di sisi klien dengan kunci publik Penerima. Satu atau lebih *Archaeologists* akan di-*curse* pada saat ini dan sebagian dari ikatan *Archaeologists* dikunci dengan *Digging Fees* dan hadiah.
+- Fase Re-wrapping - *Embalmer* dapat membuktikan keaktifan mereka, dengan mengirimkan transaksi melalui kontrak dengan waktu kebangkitan baru. Biaya penggalian diserahkan kepada *Archaeologists* dan *Digging Fees* baru harus dibayar oleh *Embalmer*.
+- Fase Resurrection - Jika *Embalmer* gagal membungkus kembali Sarcophagus, *Archaeologists* sekarang dapat mendekripsi lapisan luarnya dan mengambil hadiahnya dan tugas mereka selesai. Lapisan dalam hanya dapat didekripsi dengan kunci publik Penerima pada saat ini.
+
+**Apa yang dapat kita lakukan dengan Token SARCO?**
+
+Token SARCO adalah unit pertukaran utama yang digunakan untuk membayar *Archaeologists* atas layanan *resurrection* mereka dan dalam memasang obligasi oleh *Archaeologists.*
+
+**Bagaimana Sarcophagus diamankan?**
+
+Sarcophagus diamankan dengan enkripsi dua lapis. *Embalmer* mengenkripsi lapisan dalam dan *Archaeologists* mengenkripsi lapisan luar.
+
+**Apa yang akan terjadi jika Archaeologist me-unwraps sebuah Sarcophagus terlambat/terlalu cepat?**
+
+Jika seorang *Archaeologists* me-unwarp Sarcophagus sebelum waktu kebangkitan, setelah masa tenggang, atau tidak sama sekali, maka akan terjadi peristiwa pemotongan..
+
+**Apa itu slashing event?**
+
+Hukuman diberikan kepada *Archaeologists* karena tindakan buruknya sebagai operator node. Hal ini juga akan berdampak negatif pada jumlah obligasi yang harus diposting.
+
+**Apa yang akan terjadi jika** **Archaeologist offline?**
+
+Sarcophagus akan tetap terkunci selamanya dan *Archaeologists* akan terkena penalti.
+
+**Dapatkah** **Archeologist membuka lapisan dalam dari Sarcophagus/corpse?**
+
+*Archaeologists* tidak dapat melihat isi Sarcophagus apa pun tanpa ID Transaksi Arweave dan kuncinya.
+
+**Apakah SARCO Decentralized?**
+
+Ya, SARCO telah dilembagakan dalam bentuk DAO.
+
+**Apa itu DAO?**
+
+Decentralized Autonomous Organization. Tidak ada satu institusi pun yang memegang kendali. Kontrol dan keputusan dibagi di antara para pengguna.
+
+**Apakah kita memerlukan wallet ETH untuk menerima sebuah corpse?(bisakah non-cryptonian menerima itu)**
+
+Mumifikasi awal memerlukan Dompet ETH, namun setelah itu, selama ID Transaksi Arweave dan kuncinya diketahui, dompet tidak diperlukan.
+
+**Apakah anda akan menggunakan jaringan crypto lain untuk *Archaeologist*?**
+
+Selama jaringan memiliki kapasitas untuk *smart contract* dan penyimpanan data yang tepat, *Sarcophagus* dapat berfungsi.
+
+**Apakah ada video tentang cara mengatur *Archaeologist*?**
+
+Ada, video yang dibuat oleh salah satu anngota - https://youtu.be/ULxTa2GqYfM

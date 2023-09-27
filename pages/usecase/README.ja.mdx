@@ -1,0 +1,136 @@
+<div align="center">
+# サルコファガス：包括的なユースケーススタディ
+
+v 01.23 [初版 - Medium 記事](https://medium.com/sarcophagus-community/sarcophagus-exhaustive-usecase-study-5cd346081ee5)
+
+![ロゴ](/logo2.png)
+
+### ****************前書き****************
+
+***************この研究は包括的なプロダクトマーケット適合の概要を提供するために書かれましたが、言及された組織とのいかなるパートナーシップも構築しません。これらは、サルコファガスがデッドマンズスイッチとしての目的とユースケースに基づいてどこで使用または統合できるかを示すために言及されています。***************
+
+# **導入**
+
+サルコファガス・デッドマンズ・スイッチ（DMS）は、ユーザーが無力化され、死亡したり、データにアクセスできなくなった場合のデータの回復や受け渡しの問題に対する分散型の解決策を提供します。その目的は、データを暗号化されたコンテナ（サルコファガス）に格納し、作成者が何らかの方法で対話できなくなった場合にのみ、意図された受信者によってアクセスできるようにすることです。一度DMSがトリガーされると、データは受信者の秘密鍵を使用して復号化できます。統合により、このプロセスをバックエンドツールとして使用できるようになり、さまざまなdAppsやアプリケーションに対応します。これにより、パスワード、個人文書、財務記録、秘密鍵、さらには一部の旧式のアプリケーションやサービスを含む、機密データとデジタルアセットの安全な回復と移転が不変に確保されます。
+
+# 一般的なユースケースの概要
+
+### デジタル・リビング・ウィル
+
+サルコファガスは、多くのユースケースに対応できる汎用ツールとして設計されましたが、最も一般的に言及されるユースケースは、デジタルワールドでの相続/データの受け渡しです。この目的のため、サルコファガスは、暗号化されたデジタル・リビング・ウィルを作成し、チェーン上に保存することを可能にします。
+
+デジタル・リビング・ウィルは、彼らの意志を伝える手段がなくなった場合の医療治療の選択肢を概説する文書であることがあります。この場合、指定された受信者は文書にアクセスし、患者の意向が尊重されていることを確認できます。また、パスワード、メールアカウント、秘密鍵、その他の機密データと共に、所有者がそれらを管理できなくなった場合の指示を含めるためにも使用できます。これにより、受信者または相続人が会計を実行したり、メールとソーシャルアカウントを管理したりするために必要な情報にアクセスできるようになります。重要なデータでは不変の保証が重要であり、サルコファガスはこれらのデジタル遺産を将来の世代のために保護するための安全で信頼性のあるDMSソリューションを提供します。
+</div>
+
+**統計データ:**
+
+- Googleはアカウント用のDMSを作成しました。 [Inactive Account Manager](https://en.wikipedia.org/wiki/Dead_man%27s_switch#:~:text=Google%27s%20Inactive%20Account%20Manager%5B17%5D%20allows%20the%20account%20holder%20to%20nominate%20someone%20else%20to%20access%20their%20services%20if%20not%20used%20for%20an%20extended%20period%20(the%20default%20is%20three%20months).) と呼ばれ、アカウントホルダーが一定期間（デフォルトは3か月）使用されない場合、他の人にサービスへのアクセスを指定できるようにします。
+- Facebookには、ユーザーが死亡した後にアカウントを管理するための "[Legacy Contact](https://www.facebook.com/help/1568013990080948)" 機能があります。
+- Microsoftには、メールアカウント用の "[Next of Kin](https://answers.microsoft.com/en-us/outlook_com/forum/all/microsofts-next-of-kin-process-accessing-emails/c848d768-58e8-428f-b10a-4fcd1f95c8d8)" 機能があります。
+- Instagramには "[Memorialization](https://help.instagram.com/231764660354188)" 機能があります。
+- リストは続きます！
+
+### 緊急時のコミュニケーション
+
+野外でのハイカーが外部との通信手段を持たない状況を想像してみてください。彼らは緊急連絡先情報を保管し、近い家族などの指定された連絡先がそれにアクセスし、その情報を公園警備員や捜索救助チームに中継できるサルコファガスDMSを作成できます。ハイカーが無力化されたり、通信できなくなった場合、この受信者は情報にアクセスし、彼らの愛する人々にすぐに連絡を取ることができ、すべての関係者に安心感を提供します。
+
+このテクノロジーは、通信線がダウンしたり信頼性が低い自然災害のような緊急事態でも使用できます。ユーザーはサルコファガスに緊急連絡先情報を保存することで、自分自身が通信できない場合でも愛する人々に緊急事態が発生したことが通知されることを確信できます。
+
+このテクノロジーにより、ユーザーは予期せぬ状況に備え、愛する人々が危機の際にケアを受けることを安心して知ることができます。
+
+- [ハリケーン・カトリーナ（2005年）](https://en.wikipedia.org/wiki/Hurricane_Katrina)：アメリカの湾岸地域を襲った後、多くの地域が停電や通信インフラのない状態になりました。緊急対応者は努力を協力して調整し、多くの人々が助けを呼び出したり状況について情報を得たりすることができませんでした。
+- 海上の緊急事態の場合、船舶は通常、[Search and Rescue Transponders（SART）](https://en.wikipedia.org/wiki/Search_and_rescue_transponder)を使用して、近くの船舶や捜索救助チームが受信できる救難信号を送信します。しかし、SARTが機能しない場合や信号を効果的に送信できない場合があります。サルコファガスDMSは、位置データを定期的にブロックチェーンに送信することにより、単一障害点によって妨害されないバックアップ通信システムとして機能できる可能性があります。
+
+### 政治活動とジャーナリズム
+
+政治活動家とジャーナリストはしばしば危険な環境にさらされています。彼らの命だけでなく、彼らの情報源の命も危険にさらされています。彼らの安全性を向上させるためには、ソーシャルメディアの情報源、連絡先、研究などの機密情報を保管する必要があります。ここでサルコファガスが役立ちます。指定された受信者がアクセスできるようになる重要なデータを安全に保管する環境を提供します。ジャーナリストまたは活動家に何かが起こった場合、その作業は中断せずに続行できます。これにより、真実が明らかにされ、正義が維持されます。さらに、データのバックアップを定期的に作成するためにも使用でき、活動家とジャーナリストはデータの信頼性のあるバックアップを後で回復できることを安心して知ることができます。これは国境越えの場合にも便利であり、データがこれらのシナリオで没収されないようにするのに役立ちます。
+
+- [プレスエンブレム](https://www.pressemblem.ch/casualties.shtml)によると、2013年以来、1130人以上のジャーナリストとメディア関係者が死亡しています。
+- [ジャーナリスト保護委員会](https://cpj.org/reports/2020/12/record-number-journalists-jailed-imprisoned/#:~:text=In%20its%20annual%20global%20survey,high%20of%20272%20in%202016.)によれば、2020年12月1日にジャーナリズム活動に関連して少なくとも274人のジャーナリストが投獄され、2016年の最高記録を超えました。
+- [Top10VPN](https://www.top10vpn.com/research/cost-of-internet-shutdowns/)は、インターネットシャットダウンと政府によるインターネットアクセスの拒否を社会的なコントロール手段として追跡しています。現在、政府の検閲名目で420億ドル以上の経済的コストが発生しています。
+
+### パスワードと資格情報の回復
+
+サルコファガスDMSの別の潜在的なユースケースは、忘れられたパスワードや資格情報の回復です。ユーザーは、サルコファガスにアクセスできるのはユーザー自身だけである復旧情報（電子メールのパスワードやセキュリティの質問など）を保存できます。これにより、ユーザーはハッキングやソーシャルエンジニアリング攻撃に対して脆弱性のある従来の回復方法に依存せずにアカウントを安全に回復できるようになります。
+
+**復旧統合のシナリオ例:**
+
+[Gnosis Safe](https://safe.global/): セーフの署名者は、1人の署名者が署名の能力を失った場合にアクセスを保護するためにDMSを使用できます。これは、別のアドレスに署名権を渡す統合型のバックアップであるか、現在のアドレスのPKを受信者にファイルで送信するだけのものです。
+
+[Twitter](https://twitter.com/)または他のソーシャルメディアのユーザーは、アカウントのアクセス回復オプション機能としてDMSを使用できます。これにより、中央集権型サーバーではなく、信頼性のある実行構造が提供されます。
+
+**統計データ:**
+
+- [Chainalysisの調査](https://blog.chainalysis.com/reports/bitcoin-market-data-exchanges-trading/)によれば、2017年と2020年の調査によれば、現在のビットコインの約20%が紛失しており、その多くは紛失した秘密鍵に帰因しています。
+- パスワードのリセット/回復の電子メールは、ユーザーの代替電子メールアドレスに送信されることがよくあります。特定の場合、サーバーがダウンしている場合、回復用の電子メールが使用されていない場合、または回復用の電子メールも侵害されている場合、これは信頼性が低い場合があります。
+
+### タイムカプセル
+
+タイムカプセルは、思い出や工芸品を将来の世代のために保存する方法です。Arweaveブロックチェーンの持続性のおかげで、Sarcophagus DMSは重要な文書、写真、ビデオを将来の世代が「開封」できるように保存するためのタイムカプセルとして使用できます。これにより、将来の世代はこの情報にアクセスし、自分たちの家族の歴史について学んだり、DAOタウンシップがデジタルの歴史的なコレクションを残すことができるかもしれません。また、その暗号化機能のおかげで、内容は時間が来るまで秘密のままです。長期保存の可能性は無限です！
+
+**統計:**
+
+- 最も有名なタイムカプセルのいくつかには、1940年に封印され、8113年まで封印されることを意図した[Crypt of Civilization](https://en.wikipedia.org/wiki/Crypt_of_Civilization)と、1939年および1964年のワールドフェアで埋められ、それぞれ6939年と8113年に開封予定のWestinghouse Time Capsulesが含まれています。
+- タイムカプセルは一般的に将来の特定の日に開封することを意図していますが、失われたり忘れられたりする事例もありました。一部の場合、建設作業や発掘作業中に偶然発見されたタイムカプセルもあります。
+- 物理的なタイムカプセルが特定の期間無傷で保持されることを保証する確実な方法はなく、侵食、湿度、気温の変化などの要因がすべて内容物の保存に影響を与える可能性があります。
+
+### ノード/オペレーターの評判
+
+Sarcophagusネットワークでは、ノードの評判は、ユーザーが自分のサルコファガスを監視するためにどのノードを選ぶかを選択するのに役立つ重要な要素です。ノードの評判システムは、成功したアンラップと失敗したアンラップ、および悪意のある振る舞いの告発に基づいてノードのパフォーマンスを表示するように設計されています。これらの指標は、ユーザーがネットワーク内で最も信頼性のあるノードを特定するのに役立ちます。
+
+サルコファガスを効果的に保護するためのトラックレコードを披露することにより、ノードオペレーターは、Sarcophagusネットワークまたはオペレーターのサービスを技術的な別の方法で使用することに興味を持つ可能性のある潜在的なユーザーやパートナーにその信頼性と能力を示すことができます。
+
+ノードオペレーターがこの情報をソーシャルメディアチャンネルで共有したり、独自のマーケティング資料に含めたりすることで、この情報を活用する別の方法も考えられます。彼らは潜在的なユーザーやパートナーに対する主要なセールスポイントとしてその信頼性を強調することができます。また、この情報を既存のネットワーク接続との信頼構築に活用することもでき、これによりリピートビジネスと自然な紹介が生まれる可能性があります。
+
+ノードの評判統計は、ユーザーとノードオペレーターの両方にとって、Sarcophagusネットワークのユースケースと価値提案の重要な要素です。
+
+# 可能な統合 - 豊富なリスト
+
+以下は、潜在的な統合の例の*豊富な*リストです。このリストは、統合に基づくユースケースの深さと広がりをより良く理解するのに役立ちます。
+
+*注意: これらの用途のほとんどは、そのような統合が存在しない場合でも、ユーザーがTomb dAppフロントエンドを使用して手動で実行できます。*
+
+- **パスワードマネージャー:** [1Password](https://1password.com/), [LastPass](https://www.lastpass.com/), [Dashlane](https://www.dashlane.com/), [Keeper](https://www.keepersecurity.com/), [Bitwarden](https://bitwarden.com/), [RoboForm](https://www.roboform.com/), [Password Boss](https://www.passwordboss.com/), [Sticky Password](https://www.stickypassword.com/), [Enpass](https://www.enpass.io/), [True Key](https://www.truekey.com/), [Keepass](https://keepass.info/), [LogMeOnce](https://www.logmeonce.com/), [PassPack](https://www.passpack.com/), [Password Safe](https://pwsafe.org/), [Passwordstate](https://www.clickstudios.com.au/passwordstate.html), [Password Depot](https://www.password-depot.com/), [NordPass](https://nordpass.com/), [Password Manager Pro](https://www.manageengine.com/products/passwordmanagerpro/), [Cyclonis](https://www.cyclonis.com/), [Avast Passwords](https://www.avast.com/passwords), [McAfee True Key](https://www.truekey.com/), [Password Manager XP](https://www.cp-lab.com/), [SplashID](https://www.splashid.com/), [Trend Micro Password Manager](https://www.trendmicro.com), [Password Dragon](https://www.passworddragon.com/), [Kaspersky Password Manager](https://www.kaspersky.com/password-manager), [Password Agent](https://www.moonsoftware.com/pwagent), [Password Safe Pro](https://www.safeproject.net/), [mSecure](https://msecure.com/), [SafeInCloud](https://safe-in-cloud.com/en/), [F-Secure KEY](https://www.f-secure.com/en/home/products/key), [Secret Server](https://www.thycotic.com/products/secret-server/), [Psono](https://psono.com/), [KeeperChat](https://www.keepersecurity.com/keeperchat.html)
+    
+    
+- **ソーシャルメディア:** [Twitter](https://twitter.com/), [LinkedIn](https://www.linkedin.com/), [Instagram](https://www.instagram.com/), [TikTok](https://www.tiktok.com/), [Facebook](https://www.facebook.com/), [Snapchat](https://www.snapchat.com/), [Pinterest](https://www.pinterest.com/), [Reddit](https://www.reddit.com/), [Discord](https://discord.com/), [Telegram](https://telegram.org/), [Slack](https://slack.com/), [Zoom](https://zoom.us/), [Trello](https://trello.com/), [Asana](https://asana.com/), [Evernote](https://evernote.com/), [Notion](https://www.notion.so/), [Hootsuite](https://hootsuite.com/), [Sprout Social](https://sproutsocial.com/), [Later](https://later.com/), [Buffer](https://buffer.com/), [Tailwind](https://www.tailwindapp.com/), [Skype](https://www.skype.com/), [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software), [Webex](https://www.webex.com/), [BlueJeans](https://www.bluejeans.com/), [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/), [Twitch](https://www.twitch.tv/), [Clubhouse](https://www.joinclubhouse.com/), [OnlyFans](https://onlyfans.com/), [Patreon](https://www.patreon.com/), [Ko-fi](https://ko-fi.com/), [Substack](https://substack.com/), [Medium](https://medium.com/), [WordPress](https://wordpress.com/), [Blogger](https://www.blogger.com/), [Tumblr](https://www.tumblr.com/), [Minds](https://www.minds.com/), [Mastodon](https://joinmastodon.org/), [Gab](https://gab.com/), [Parler](https://parler.com/), [MeWe](https://mewe.com/), [Farcaster](https://farcaster.network/), [Subsocial](https://subsocial.network/), [Bluesky](https://blueskyweb.xyz/)
+    
+    
+- **クラウドストレージ:** [Google Drive](https://www.google.com/drive/), [Apple iCloud](https://www.icloud.com/), [Microsoft OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage), [Dropbox](https://www.dropbox.com/), [Box](https://www.box.com/), [Mega](https://mega.nz/), [Amazon S3](https://aws.amazon.com/s3/), [Google Cloud Storage](https://cloud.google.com/storage), [Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html), [Wasabi](https://wasabi.com/), [pCloud](https://www.pcloud.com/), [Sync.com](https://www.sync.com/), [Nextcloud](https://nextcloud.com/), [iCloud Drive](https://www.icloud.com/), [Google Photos](https://www.google.com/photos), [Flickr](https://www.flickr.com/), [SugarSync](https://www.sugarsync.com/), [SpiderOak](https://spideroak.com/), [Tresorit](https://tresorit.com/), [Egnyte](https://www.egnyte.com/), [Zoho Docs](https://www.zoho.com/docs/), [pCloud Crypto](https://www.pcloud.com/crypto), [Koofr](https://koofr.eu/), [OwnCloud](https://owncloud.com/), [Seafile](https://www.seafile.com/), [Synology Drive](https://www.synology.com/en-us/dsm/feature/drive), [Yandex Disk](https://disk.yandex.com/), [IBM Cloud](https://www.ibm.com/cloud), [Oracle Cloud](https://www.oracle.com/cloud/), [IDrive](https://www.idrive.com/), [Syncplicity](https://www.syncplicity.com/), [Tresorit Send](https://send.tresorit.com/), [Jottacloud](https://www.jottacloud.com/), [Acronis True Image](https://www.acronis.com/en-us/products/true-image/), [OpenDrive](https://www.opendrive.com/), [Morro Data CloudNAS](https://www.morrodata.com/cloudnas/), [Hubic](https://hubic.com/en/), [Canto Cumulus](https://www.canto.com/cumulus/),
+    
+    
+- **ファイナンス:** [PayPal](https://www.paypal.com/), [Venmo](https://venmo.com/), [Cash App](https://cash.app/), [Robinhood](https://robinhood.com/), [Coinbase Pro](https://pro.coinbase.com/), [Binance](https://www.binance.com/en), [Kraken](https://www.kraken.com/), [Bitfinex](https://www.bitfinex.com/), [Metamask](https://metamask.io/), [MyEtherWallet](https://www.myetherwallet.com/), [Ledger Live](https://www.ledger.com/), [Trezor Suite](https://trezor.io/), [Exodus Wallet](https://www.exodus.com/), [Aave](https://aave.com/), [Compound](https://compound.finance/), [Uniswap](https://app.uniswap.org/), [SushiSwap](https://app.sushi.com/), [Yearn Finance](https://yearn.finance/), [Balancer](https://balancer.finance/), [Curve Finance](https://www.curve.fi/), [MakerDAO](https://makerdao.com/), [Synthetix](https://www.synthetix.io/), [Bancor](https://www.bancor.network/), [1inch,](https://1inch.io/) [Exchange](https://1inch.exchange/#/), [Kyber Network](https://kyber.network/), [Badger DAO](https://badger.finance/), [Harvest Finance](https://harvest.finance/), [Alpha Finance](https://alphafinance.io/), [Cream Finance](https://cream.finance/), [Pickle Finance](https://pickle.finance/), [Near Wallet](https://wallet.near.org/), [Raydium](https://raydium.io/), [Saber](https://saber.so/),  [Orion Protocol](https://www.orionprotocol.io/), [DeFi Saver](https://defisaver.com/), [Instadapp](https://instadapp.io/), [Zapper.fi](http://zapper.fi/), [Zerion](https://zerion.io/), [DeversiFi](https://www.deversifi.com/), [DODO Exchange](https://app.dodoex.io/), [PowerTrade](https://power.trade/), [Biconomy](https://biconomy.io/), [Avalanche Wallet](https://wallet.avax.network/), [Polkadot JS Extension](https://polkadot.js.org/extension/), [Furucombo](https://furucombo.app/), [EasyFi](https://easyfi.network/), [Frontier Wallet](https://frontierwallet.com/), [DeFiChain](https://defichain.com/), [PancakeSwap](https://pancakeswap.finance/), [Acala Network](https://acala.network/), [Darwinia Network](https://darwinia.network/), [Unbound Finance](https://www.unbound.finance/), [HOPR](https://hoprnet.org/), [Nsure Network](https://nsure.network/), [Zokyo](https://zokyo.io/), [Trust Wallet](https://trustwallet.com/), [Portis](https://www.portis.io/)
+    
+     
+    
+- **ブラウザデータ:** [Brave Search](https://search.brave.com/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/safari/), [Edge](https://www.microsoft.com/en-us/edge), [Tor Browser](https://www.torproject.org/), [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/), [Chromium](https://www.chromium.org/Home), [Pale Moon](https://www.palemoon.org/), [Waterfox](https://www.waterfox.net/), [Netscape Navigator](https://web.archive.org/web/20080401090449/http://browser.netscape.com/ns8/), [Maxthon](https://www.maxthon.com/), [SeaMonkey](https://www.seamonkey-project.org/), [Avant Browser](http://www.avantbrowser.com/), [Konqueror](https://konqueror.org/), [Lynx](https://invisible-island.net/lynx/), [Links](http://links.twibright.com/), [ELinks](http://elinks.cz/), [w3m](http://w3m.sourceforge.net/), [Surf](https://surf.suckless.org/), [Dillo](https://www.dillo.org/), [NetSurf](https://www.netsurf-browser.org/), [Epiphany](https://wiki.gnome.org/Apps/Web/), [Galeon](https://sourceforge.net/projects/galeon/), [IceCat](https://www.gnu.org/software/gnuzilla/), [K-Meleon](http://kmeleonbrowser.org/), [Slimjet](https://www.slimjet.com/), [SRWare Iron](https://www.srware.net/en/software_srware_iron.php), [Uzbl](https://www.uzbl.org/), [Yandex Browser](https://browser.yandex.com/), [Basilisk](https://www.basilisk-browser.org/), [Cent Browser](https://www.centbrowser.com/), [Falkon](https://www.falkon.org/), [Otter Browser](https://otter-browser.org/), [Puffin](https://www.puffin.com/), [Yandex Browser Lite](https://play.google.com/store/apps/details?id=com.yandex.browser.lite)
+    
+    
+- **電子メールサービス:** [ProtonMail](https://protonmail.com/), [Tutanota](https://tutanota.com/), [Gmail](https://www.google.com/gmail/), [Outlook.com](https://outlook.live.com/), [Yahoo! Mail](https://www.yahoo.com/mail/), [Zoho Mail](https://www.zoho.com/mail/), [Mail.com](https://www.mail.com/), [GMX](https://www.gmx.com/), [AOL Mail](https://www.aol.com/mail/), [FastMail](https://fastmail.com/), [Posteo](https://posteo.de/en), [Runbox](https://runbox.com/), [Hushmail](https://www.hushmail.com/), [Mailfence](https://mailfence.com/), [StartMail](https://www.startmail.com/), [Criptext](https://criptext.com/), [CounterMail](https://countermail.com/), [CTemplar](https://ctemplar.com/), [LuxSci](https://luxsci.com/), [Mailbox.org](https://mailbox.org/), [Kolab Now](https://kolabnow.com/), [Soverin](https://soverin.net/), [Thunderbird](https://www.mozilla.org/en-US/thunderbird/), [Pegasus Mail](http://www.pmail.com/), [Inky](https://inky.com/), [HEY](https://hey.com/), [AstraMail](https://astra.finance/), [3box Mail](https://3box.io/), [Wevemail](https://wevemail.io/)
+    
+    
+- **プロジェクト管理:** [GitHub](https://github.com/), [GitLab](https://gitlab.com/), [Bitbucket](https://bitbucket.org/), [Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence), [Asana](https://asana.com/), [Trello](https://trello.com/), [Slack](https://slack.com/), [Discord](https://discord.com/), [Zoom](https://zoom.us/), [Airtable](https://airtable.com/), [Monday.com](http://monday.com/), [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html), [Canva](https://www.canva.com/), [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), [InVision](https://www.invisionapp.com/), [Notion](https://www.notion.so/), [Coda](https://coda.io/), [Quip](https://quip.com/), [Miro](https://miro.com/), [Basecamp](https://basecamp.com/), [ClickUp](https://clickup.com/), [Wrike](https://www.wrike.com/), [Webflow](https://webflow.com/), [Bubble](https://bubble.io/)
+    
+     
+    
+- **広告プラットフォーム:** [Google Analytics](https://analytics.google.com/), [Facebook](https://www.facebook.com/business/ads), [Twitter Ads](https://ads.twitter.com/), [Google Ads](https://ads.google.com/), [Microsoft Advertising](https://ads.microsoft.com/), [LinkedIn Ads](https://www.linkedin.com/ad/accounts), [Amazon Advertising](https://advertising.amazon.com/), [Shopify](https://www.shopify.com/), [Magento](https://magento.com/), [WooCommerce](https://woocommerce.com/), [BigCommerce](https://www.bigcommerce.com/), [Salesforce Commerce Cloud](https://www.salesforce.com/products/commerce-cloud/overview/), [Zoho](https://www.zoho.com/), [Freshworks](https://www.freshworks.com/), [Zendesk](https://www.zendesk.com/), [Intercom](https://www.intercom.com/), [Drift](https://www.drift.com/), [HubSpot](https://www.hubspot.com/), [ZoomInfo](https://www.zoominfo.com/), [Crunchbase](https://www.crunchbase.com/), [LinkedIn Sales Navigator](https://business.linkedin.com/sales-solutions/sales-navigator), [SalesLoft](https://salesloft.com/), [Outreach](https://www.outreach.io/), [Brave Search](https://search.brave.com/), [Presearch](https://www.presearch.org/), [AdEx](https://www.adex.network/), [Adshares](https://adshares.net/), [BAT](https://basicattentiontoken.org/), [AdChain](https://adchain.com/), [AdHive](https://adhive.tv/), [Adshares](https://adshares.net/), [Attention Network](https://attention.network/), [MadNetwork](https://madnetwork.com/), [Native](https://native.io/), [PO8](https://po8.io/), [Unstoppable Domains](http://unstoppabledomains.com/)
+    
+    
+- **メールマーケティング:** [Mailchimp](https://mailchimp.com/), [Sendinblue](https://www.sendinblue.com/), [Constant Contact](https://www.constantcontact.com/), [GetResponse](https://www.getresponse.com/), [Campaign Monitor](https://www.campaignmonitor.com/), [AWeber](https://www.aweber.com/), [ConvertKit](https://convertkit.com/), [ActiveCampaign](https://www.activecampaign.com/), [Keap](https://keap.com/), [Drip](https://www.drip.com/), [Emma](https://myemma.com/), [HubSpot Marketing Hub](https://www.hubspot.com/products/marketing), [Klaviyo](https://www.klaviyo.com/), [Marketo](https://www.marketo.com/), [Omnisend](https://www.omnisend.com/), [Pardot](https://www.pardot.com/),  [Zoho Campaigns](https://www.zoho.com/campaigns/)
+    
+    
+- **不動産:** [Google My Business](https://www.google.com/business/), [Yelp](https://www.yelp.com/), [TripAdvisor](https://www.tripadvisor.com/), [Zillow](https://www.zillow.com/), [Redfin](https://www.redfin.com/), [Realtor.com](https://www.realtor.com/), [Trulia](https://www.trulia.com/), [Homes.com](https://www.homes.com/), [HomeFinder.com](https://homefinder.com/), [Apartment Finder](https://www.apartmentfinder.com/), [Apartments.com](https://www.apartments.com/), [Rent.com](https://www.rent.com/), [CoStar](https://www.costar.com/), [PropertyShark](https://www.propertyshark.com/), [LoopNet](https://www.loopnet.com/), [Reonomy](https://www.reonomy.com/), [Estately](https://www.estately.com/), [HomeSnap](https://www.homesnap.com/), [Knock](https://www.knock.com/), [Opendoor](https://www.opendoor.com/), [Homie](https://www.homie.com/), [Offerpad](https://www.offerpad.com/), [Propy](https://propy.com/), [RealCrowd](https://www.realcrowd.com/), [Roofstock](https://www.roofstock.com/), [Fundrise](https://fundrise.com/), [PeerStreet](https://www.peerstreet.com/).
+
+- **健康管理:** [Zocdoc](https://www.zocdoc.com/), [WebMD](https://www.webmd.com/), [Doctor On Demand](https://www.doctorondemand.com/), [GoodRx](https://www.goodrx.com/), [Cerner](https://www.cerner.com/), [Epic](https://www.epic.com/), [Allscripts](https://www.allscripts.com/), [Athenahealth](https://www.athenahealth.com/), [NextGen Healthcare](https://www.nextgen.com/), [MedlinePlus](https://medlineplus.gov/), [Healthline](https://www.healthline.com/), [Mayo Clinic](https://www.mayoclinic.org/), [Cleveland Clinic](https://my.clevelandclinic.org/), [Kaiser Permanente](https://healthy.kaiserpermanente.org/), [CVS Health](https://www.cvshealth.com/), [Walgreens](https://www.walgreens.com/), [Rite Aid](https://www.riteaid.com/), [Optum](https://www.optum.com/), [Teladoc](https://www.teladoc.com/), [Babylon Health](https://www.babylonhealth.com/), [Ada Health](https://ada.com/), [MyFitnessPal](https://www.myfitnesspal.com/), [Fitbit](https://www.fitbit.com/), [Apple Health](https://www.apple.com/ios/health/), [Google Fit](https://www.google.com/fit/),
+    
+    
+
+これは、Sarcophagus DMSがさまざまなアプリケーションと統合され、安全なデータの回復と引き継ぎソリューションを提供するいくつかの***例***です。このようにその機能を活用することで、ユーザーは予期しない出来事の際にデータを安全に保存および回復するより安全かつ信頼性の高い方法を利用できます。
+
+# 結論
+
+Sarcophagus DMSは、ユーザーに対して、検閲に対抗するスマートコントラクトを介したデータ回復と引き継ぎの管理能力を提供します。このユーティリティには多くのユースケースがあり、さらに探求する余地があり、現在のデジタルランドスケープにおける重要な問題に対処しています。不変で信頼性のあるソリューションを提供することにより、デジタルの遺産を将来の世代のために保存し、重要なデータが安全で変更されずに必要な時に利用できるようにします。
+
+*人間とAIの助けを借りて書かれました*
+
+一部のサイトリンクは時間の経過とともに変更され、ダウンリンクになることがあります。この情報は正確性のために徹底的に編集されていますが、言及されているリンクと参照に関する一部のエラーが持続する可能性があります。

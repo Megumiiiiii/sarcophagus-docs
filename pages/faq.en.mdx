@@ -1,0 +1,147 @@
+# FAQ
+
+**What is Sarcophagus?**
+
+It is a decentralized dead man's switch application built on Ethereum and Arweave, you can learn more about the project by visiting sarcophagus.io, or reading the litepaper.
+
+**What is SARCO?**
+
+SARCO is an ERC20 token with a fixed supply of 100,000,000. More information on the SARCO token can be found at sarcophagus.io/sarco_token.html the token is used exclusively by the parties interacting with the dApp.
+
+**What is a Dead Man Switch?**
+
+A mechanism that triggers when the user fails to perform an action.
+
+**What are the use cases of Sarcophagus?**
+
+The common use cases are a Will or Trust, Password Recovery, Credential Passdown, Political Activism, Key Material Backup and Emergency Communication.
+
+**What is a Litepaper?**
+
+A place to see how Sarcophagus works in more detail.
+
+**What is a Sarcophagus?**
+
+A file or “corpse” that is wrapped in two layers of encryption; the Embalmer encrypts the inner layer and the Archaeologist encrypts the outer layer.
+
+**What is Arweave?**
+
+[The network](https://www.arweave.org/) that stores the information permanently. This is where the file will remain forever upon resurrection.
+
+**What is an Embalmer?**
+
+User or Party who creates a sarcophagus (dead man’s switch).
+
+**What is a Corpse?**
+
+The data payload within the Sarcophagus.
+
+**What is Mummification?**
+
+The process of wrapping (encrypting) the corpse by the Embalmer.
+
+**What is Re-wrapping?**
+
+The process by which the Embalmer attests to their liveness
+
+**What is a Resurrection?**
+
+When the outer layer of the sarcophagus is decrypted by the Archaeologist.
+
+**What is the Resurrection grace period?**
+
+The time window in which the Archaeologist has to decrypt the outer layer of the Sarcophagus and avoid a slashing event. The window is 240 blocks (~1 hour)
+
+**What is a Curse?**
+
+The agreement between the Embalmer and Archaeologist.
+
+**What/who is a recipient?**
+
+The ETH address that will have access to the file once resurrected.
+
+**What is an Archaeologist?**
+
+A third party incentivized node operators that helps to unearth the sarcophagus.
+
+**How do you choose which Archaeologist to Curse?**
+
+Archaeologists have publicly available parameters that they control. Archaeologist historical statistics are incredibly important and will be made available to embalmers.
+
+**What is required to Curse an Archaeologist?**
+
+The minimum digging fee, the minimum bounty and the maximum resurrection time.
+
+**What are Digging Fees?**
+
+Are fees paid up front by the Embalmer to the Archaeologist at mummification and each re-wrapping.
+
+**What is a Bounty?**
+
+The bounty is the treasure paid to the Archaeologist for a successful resurrection (after the Resurrection time but before the end of the grace period).
+
+**What is the Reserve Requirement?**
+
+The amount of malicious volume as a portion of the total network for the past 175,000 Blocks (~1 month). Each basis point increases the reserve requirement by 10%. The reserve requirement can be no lower than 10% and no higher than 100%
+
+**What is a Bond?**
+
+An amount of posted SARCO tokens equal to the sum of the digging fees and bounty, multiplied by the reserve requirement.
+
+Amount of Sarco Tokens = (Digging Fees + Bounty) * Reserve Requirement
+
+**Can I delete a Sarcophagus?**
+
+No, but the sarcophagus can be locked away forever by re-wrapping with no bounty or digging fees and extending the resurrection date further than the Archaeologist’s maximum resurrection time.
+
+**How do I use Sarcophagus?**
+
+There are 3 phases of Sarcophagus
+
+- The Mummification Phase - The Embalmer will upload and encrypt the corpse client-side with the public key of the Recipient. One or more Archaeologist will be cursed at this point and a portion of the Archaeologist bond is locked away with the digging fees and bounty.
+- The Re-wrapping Phase - The Embalmer can attests to their liveliness, by sending a transaction through the contract with a new resurrection time. The digging fees are released to the Archaeologist and new digging fees need to be paid by the embalmer.
+- The Resurrection Phase - If the Embalmer fails to re-wrap the sarcophagus the Archaeologist can now decrypt the outer layer and retrieve the bounty and their job is done. The inner layer can only be decrypted by the Recipient’s public key at this point.
+
+**What can I do with a SARCO token?**
+
+The SARCO Token is the primary unit of exchange used to pay an Archaeologist for their resurrection services and in posting a bond by Archaeologist.
+
+**How is Sarcophagus secured?**
+
+The Sarcophagus is secured with two layers of encryption. The Embalmer encrypts the inner layer and the Archaeologist encrypts the outer layer.
+
+**What happens if an Archaeologist unwraps a Sarcophagus too late/too soon?**
+
+If an Archaeologist unwraps a sarcophagus before resurrection time, after the grace period, or not at all, a slashing event will occur.
+
+**What is a slashing event?**
+
+Penalties are assessed to the Archaeologist for bad acting as a node operator. This will also negatively affect the bond amount required to be posted.
+
+**What happens if an Archaeologist goes offline?**
+
+The sarcophagus will remain locked away forever and the Archaeologist will be slashed.
+
+**Can an Archeologist unwrap(access) the inner layer of a Sarcophagus/corpse?**
+
+The Archaeologist is unable to view the contents of any sarcophagus without the Arweave Transaction ID and key.
+
+**Is SARCO Decentralized?**
+
+Yes, SARCO has been instituted in the form of a DAO.
+
+**What is a DAO?**
+
+Decentralized Autonomous Organization. No one single institution is in control. The control and decisions are divided among the users.
+
+**Do you need an ETH wallet to receive a corpse?(can the non-cryptonian receive it)**
+
+The initial mummification requires an ETH Wallet, but after that, as long as the Arweave Transaction ID and key is known, a wallet is not needed.
+
+**Will you use any other cryptocurrency networks for the Archaeologist?**
+
+As long as the networks have a capacity for proper smart contracting and data storage, it is possible to make sarcophagus work.
+
+**Is there a video on setting up an Archaeologist?**
+
+Video created by a community member - https://youtu.be/ULxTa2GqYfM
