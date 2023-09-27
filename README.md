@@ -1,4 +1,4 @@
-# Try it locallY
+## Try it locally
 
 ```
 yarn
